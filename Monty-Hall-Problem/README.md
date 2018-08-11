@@ -12,7 +12,7 @@ Is it to your advantage to switch your choice?
 Under the standard assumptions, contestants who switch have a 2/3 chance of winning the car, while contestants
 who stick to their initial choice have only a 1/3 chance.
  ```
-# Simulation
+## Simulation
 On running this simulation, Monty Hall Problem started to converge towards the theoretical probability of 2/3 in case of switching the door and towards 1/3 in case of sticking with initial choice.
 ![Simulation Graph](anim.gif)
 
