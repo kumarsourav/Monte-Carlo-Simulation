@@ -61,8 +61,8 @@ def simulate():
 		monty_choice = mh.selDoor()
 		if mydoor == prize:
 			win_fix += 1
-		newdoor = mh.switchDoor()
-		if newdoor[0] == prize:
+		newdoor, = mh.switchDoor()
+		if newdoor == prize:
 			win_switch += 1
 		yield i, win_fix,  win_switch
 
